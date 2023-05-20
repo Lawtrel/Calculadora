@@ -10,7 +10,7 @@
 <body>
     <h1>Calculadora</h1>
     <div class="calculadora">
-        <button id="track-history" class="hidden" onclick="trackHistory()">Historico</button>
+        <button id="track-history" class="hidden" onclick="historico()">Historico</button>
         <div class="screen">
             <textarea id="history" cols="34" rows="4" disabled></textarea>
             <input type="text" id="display" disabled>
@@ -31,7 +31,7 @@
         <button class="numeros" onclick="addToDisplay('3')">3</button>
         <button class="operadores" onclick="addToDisplay('+')">+</button>
 
-        <button class="clear" onclick="clearDisplaay()">C</button>
+        <button class="clear" onclick="clearDisplay()">C</button>
         <button class="numeros" onclick="addToDisplay('0')">0</button>
         <button class="igual" onclick="calculate()">=</button>
         <button class="operadores" onclick="addToDisplay('/')">/</button>

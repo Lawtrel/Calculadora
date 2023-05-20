@@ -1,5 +1,5 @@
 let display = document.getElementById("display")
-let trackHistoryButton = document.getElementById("track-history")
+let historico_Button = document.getElementById("historico")
 let history = document.getElementById("history")
 
 function addToDisplay(value) {
@@ -21,9 +21,9 @@ function calculate() {
 function trackHistory() {
     if (history.style.display !== "block") {
         history.style.display = "block"
-        trackHistoryButton.innerText = "Esconder Historico"
+        historico_Button.innerText = "Esconder Historico"
     } else {
         history.style.display = "none"
-        trackHistoryButton.innerText = "Mostrar Historico"
+        historico_Button.innerText = "Mostrar Historico"
     }
 }
